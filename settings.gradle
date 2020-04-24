@@ -1,0 +1,2 @@
+rootProject.name='Examen Practico 2 IceCream Sandwich'
+include ':app'
