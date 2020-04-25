@@ -20,7 +20,7 @@
         android:textSize="36sp" />
 
     <ImageView
-        android:id="@+id/imagenLista"
+        android:id="@+id/imagenRestaurant"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="20dp"
@@ -45,7 +45,7 @@
             android:textColor="#000000" />
 
         <EditText
-            android:id="@+id/nombreText"
+            android:id="@+id/campo0"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -64,7 +64,7 @@
             android:textColor="#000000" />
 
         <EditText
-            android:id="@+id/descText"
+            android:id="@+id/campo1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -85,7 +85,7 @@
             android:textColor="#000000" />
 
         <EditText
-            android:id="@+id/dirText"
+            android:id="@+id/campo2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
