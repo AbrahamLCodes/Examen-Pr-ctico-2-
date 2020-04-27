@@ -1,5 +1,13 @@
 package iceCreamSandwich.unidad2.examenpractico2icecreamsandwich;
 
+/*
+ * Autor: Abraham Luna Cázares
+ * Carrera: Ingeniería Informática
+ * Materia: Desarrollo de Aplicaciones Móviles I
+ * Docente: Ing. Rubén Alonso Hernández Chávez
+ * ---Instituto Tecnológico de Chihuahua II---
+ * */
+
 import android.app.Activity;
 import android.content.Context;
 import android.view.View;
@@ -16,6 +24,7 @@ public class ListaAdapter extends ArrayAdapter<ListaImagenes> {
     private Context context;
     private int resource;
 
+    //Constructor override para inicializar los objetos, el context y el recurso que se usará para el Adapter
     public ListaAdapter(@NonNull Context context, int resource, @NonNull ListaImagenes[] objects) {
         super(context, resource, objects);
 

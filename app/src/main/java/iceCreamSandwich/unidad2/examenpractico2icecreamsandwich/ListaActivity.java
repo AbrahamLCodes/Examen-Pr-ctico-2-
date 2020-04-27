@@ -1,17 +1,26 @@
 package iceCreamSandwich.unidad2.examenpractico2icecreamsandwich;
 
+/*
+ * Autor: Abraham Luna Cázares
+ * Carrera: Ingeniería Informática
+ * Materia: Desarrollo de Aplicaciones Móviles I
+ * Docente: Ing. Rubén Alonso Hernández Chávez
+ * ---Instituto Tecnológico de Chihuahua II---
+ * */
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class ListaActivity extends AppCompatActivity {
+    //Este código está basado en la práctica del ArrayAdapter del clima.
+
 
     private ListView listView;
+    // Lista de imágenes que se pasará al ListaAdapter
     private ListaImagenes [] imagenes = {
             new ListaImagenes(R.drawable.carne),
             new ListaImagenes(R.drawable.carnitas),

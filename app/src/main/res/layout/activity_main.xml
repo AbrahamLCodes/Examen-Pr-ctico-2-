@@ -99,6 +99,7 @@
             android:textColor="#FFFFFF" />
 
         <TextView
+            android:id="@+id/mostrar"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="5dp"
@@ -109,6 +110,7 @@
             android:textColor="#FFFFFF" />
 
         <TextView
+            android:id="@+id/salir"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
