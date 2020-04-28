@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -39,6 +40,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+        if(!ArrayRestaurante.isEmpty()){
+            Toast.makeText(this, ArrayRestaurante.getpeek().getNombre(), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    @Override
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.capturar:
@@ -46,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.mostrar:
+                startActivity(new Intent(this, RestauranteActivity.class));
                 break;
 
             case R.id.salir:

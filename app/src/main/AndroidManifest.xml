@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ListaActivity"></activity>
+        <activity android:name=".RestauranteActivity"></activity>
         <activity android:name=".DatosActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

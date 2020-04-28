@@ -26,7 +26,9 @@ public class ArrayRestaurante {
     public static void add(Restaurante dato){
         arrayRestaurante.add(dato);
     }
-
+    public static Restaurante getpeek(){
+        return arrayRestaurante.get(arrayRestaurante.size()-1);
+    }
     //Método para verificar si hay o no hay elementos. Para validaciones más fáciles dentro del código.
     public static boolean isEmpty(){
         if (arrayRestaurante.isEmpty()){
