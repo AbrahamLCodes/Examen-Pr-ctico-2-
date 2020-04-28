@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Autor: Abraham Luna Cázares
+    Autor: Nevin Adair Almanza Ortiz
     Carrera: Ingeniería Informática
     Materia: Desarrollo de Aplicaciones Móviles I
     Docente: Ing. Rubén Alonso Hernández Chávez
@@ -15,7 +15,7 @@
     >
 
     <ImageView
-        android:id="@+id/imagen"
+        android:id="@+id/imagenEvaulacion"
         android:layout_width="300dp"
         android:layout_height="300dp"
         app:srcCompat="@drawable/frijoles"

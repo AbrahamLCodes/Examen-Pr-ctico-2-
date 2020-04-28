@@ -10,7 +10,6 @@ package iceCreamSandwich.unidad2.examenpractico2icecreamsandwich;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Mario Andrés Tejada Morales y Luis Angel Soto Castillo (No tiene computadora buena)
+    Carrera: Ingeniería Informática
+    Materia: Desarrollo de Aplicaciones Móviles I
+    Docente: Ing. Rubén Alonso Hernández Chávez
+    Instituto Tecnológico de Chihuahua II
+ -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"

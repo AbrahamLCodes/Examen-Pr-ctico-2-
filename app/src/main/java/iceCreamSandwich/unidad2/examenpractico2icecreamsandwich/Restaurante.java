@@ -16,16 +16,17 @@ public class Restaurante {
         de Restaurantes.
     */
 
-    String nombre, descripcion, dirytel;
-    int calificacion, imagen;
+    private String nombre, descripcion, dirytel;
+    private int calificacion, imagen;
 
-    public Restaurante(String [] campos, int calificacion, int imagen){
+    public Restaurante(String[] campos, int calificacion, int imagen) {
         this.nombre = campos[0];
         this.descripcion = campos[1];
         this.dirytel = campos[2];
         this.calificacion = calificacion;
         this.imagen = imagen;
     }
+
 
     public String getNombre() {
         return nombre;
@@ -45,5 +46,9 @@ public class Restaurante {
 
     public int getImagen() {
         return imagen;
+    }
+
+    public void setCalificacion(int calificacion) {
+        this.calificacion = calificacion;
     }
 }

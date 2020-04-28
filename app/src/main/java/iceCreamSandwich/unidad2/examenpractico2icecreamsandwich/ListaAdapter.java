@@ -41,7 +41,7 @@ public class ListaAdapter extends ArrayAdapter<ListaImagenes> {
             convertView = ((Activity) context).getLayoutInflater().inflate(resource,parent,false);
         }
 
-        ImageView imagen = convertView.findViewById(R.id.imagen);
+        ImageView imagen = convertView.findViewById(R.id.imagenEvaulacion);
         imagen.setImageResource(objects[position].getImagenRecurso());
 
         return convertView;

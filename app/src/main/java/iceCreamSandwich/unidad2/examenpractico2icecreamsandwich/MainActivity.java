@@ -1,7 +1,7 @@
 package iceCreamSandwich.unidad2.examenpractico2icecreamsandwich;
 
 /*
- * Autor: Abraham Luna Cázares
+ * Autor: Abraham Luna Cázares y Luis Angel Soto Castillo (No tiene computadora buena)
  * Carrera: Ingeniería Informática
  * Materia: Desarrollo de Aplicaciones Móviles I
  * Docente: Ing. Rubén Alonso Hernández Chávez
@@ -15,7 +15,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -40,16 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    protected void onResume() {
-        super.onResume();
-        if(!ArrayRestaurante.isEmpty()){
-            Toast.makeText(this, ArrayRestaurante.getpeek().getNombre(), Toast.LENGTH_SHORT).show();
-        }
-    }
-
-    @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.capturar:
                 startActivity(new Intent(this, DatosActivity.class));
                 break;
