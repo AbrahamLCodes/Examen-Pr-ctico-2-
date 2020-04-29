@@ -10,6 +10,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/border"
+
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="5"
@@ -44,15 +46,19 @@
 
         <TextView
             android:layout_width="match_parent"
+
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:text="Nombre:"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/campo0"
+            android:background="@drawable/border"
+            android:padding="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -68,10 +74,13 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:text="Descripción:"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/campo1"
+            android:background="@drawable/border"
+            android:padding="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -89,10 +98,13 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:text="Dirección y teléfono"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/campo2"
+            android:background="@drawable/border"
+            android:padding="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
