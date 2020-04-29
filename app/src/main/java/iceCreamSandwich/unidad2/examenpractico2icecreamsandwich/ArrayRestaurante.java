@@ -1,7 +1,7 @@
 package iceCreamSandwich.unidad2.examenpractico2icecreamsandwich;
 
 /*
-* Autor: Abraham Luna Cázares, Mario Andres Tejada Morales, bla
+* Autor: Abraham Luna Cázares
 * Carrera: Ingeniería Informática
 * Materia: Desarrollo de Aplicaciones Móviles I
 * Docente: Ing. Rubén Alonso Hernández Chávez
