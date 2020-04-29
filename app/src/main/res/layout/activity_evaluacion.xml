@@ -34,14 +34,14 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="10dp"
-        android:layout_weight="5.5"
+        android:layout_weight="4.5"
         app:srcCompat="@drawable/carne" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginLeft="20dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:orientation="vertical">
 
         <TextView
@@ -89,26 +89,27 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="4"
+        android:gravity="center_vertical"
         android:weightSum="3">
 
         <ImageView
             android:id="@+id/estrella1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="100dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/star" />
 
         <ImageView
             android:id="@+id/estrella2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="99dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/star" />
 
         <ImageView
             android:id="@+id/estrella3"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="98dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/star" />
     </LinearLayout>
